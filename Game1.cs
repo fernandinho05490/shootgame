@@ -262,8 +262,9 @@ namespace shootgame
                 " Lucca Lima DAlbuquerque 01534204",
                 " Gabriel Batista da Silva 01527525",
                 " Pedro Henrique Marques De Luna Calado 01518089",
-                " Arthur Manuel -01531055 Edleson duarte batista junior 01516994",
-                " Edleson duarte batista junior 01516994"
+                " Arthur Manuel 01531055 ",
+                " Edleson duarte batista junior 01516994",
+                " Gabriel Bandeira de Melo Oliveira da Silva - 01531782"
             };
 
                 Vector2 position = new Vector2(100, 100);
