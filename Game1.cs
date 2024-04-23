@@ -253,9 +253,23 @@ namespace shootgame
             {
                 _spriteBatch.DrawString(gameFont, "Jogo terminado! Sua pontuação final é: " + score.ToString(), new Vector2(400, 50), Color.White);
             }
-            // Adicione aqui o código para desenhar os créditos
+            else if (estadoAtual == EstadoJogo.Creditos)
+            {
+                string[] creditos = new string[]
+            {
+                "Desenvolvido por:",
+                "  Fernando Patrício 01530576",
+                " Lucca Lima DAlbuquerque 01534204",
+                " Gabriel Batista da Silva 01527525",
+                " Pedro Henrique Marques De Luna Calado 01518089",
+                " Arthur Manuel -01531055 Edleson duarte batista junior 01516994",
+                " Edleson duarte batista junior 01516994"
+            };
 
-            _spriteBatch.End();
+                Vector2 position = new Vector2(100, 100);
+                _spriteBatch.DrawString(gameFont, creditos[i], position, Color.White);
+                
+                _spriteBatch.End();
 
             base.Draw(gameTime);
         }
